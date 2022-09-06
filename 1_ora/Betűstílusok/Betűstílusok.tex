@@ -1,0 +1,68 @@
+\documentclass{article}
+\usepackage[english, hungarian]{babel}
+\usepackage{t1enc}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{blindtext}
+\usepackage{lipsum}
+\usepackage{hulipsum}
+
+\title{Első óra}
+\author{Miron}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+
+\textbf{\emph{vastag betűk}} 
+
+\texttt{typewriter}
+
+\textsc{\emph{kiskapitalis}} 
+
+\textit{\emph{italic}}
+
+\textsl{slanted} 
+
+
+\textsf{sans serif}
+
+
+\reflectbox{\framebox{tükrözött}}
+
+
+
+\rotatebox{180}{\scalebox{2.0}{tükrözött és nyújtott}}
+
+\rotatebox{90}{90 fokos}
+\rotatebox{270}{270 fokos}
+
+\reflectbox{\textcolor{white}{\colorbox{black}{szöveg fekete háttérrel és invertálva}}}
+
+\textcolor{red}{\fcolorbox{red}{white}{szöveg pirossal és piros kerettel}}
+
+\begin{otherlanguage}{hungarian}
+\today
+
+\frenchspacing{\textcolor{blue}{\hulipsum[1]}}
+\end{otherlanguage}
+
+\par
+\begin{otherlanguage}{latin}
+\begin{flushright}
+
+\lipsum[1]
+
+\end{flushright}
+\end{otherlanguage}
+
+\begin{otherlanguage}{english}
+\today
+
+\linespread{1.6}{\blindtext[1]}
+\end{otherlanguage}
+
+
+\end{document}
