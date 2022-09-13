@@ -1,0 +1,12 @@
+\select@language {magyar} \contentsline {section}{\numberline {1}első szakasz}{2}{}%
+\select@language {magyar} \contentsline {subsection}{\numberline {1.1}}{2}{}%
+\select@language {magyar} \contentsline {subsection}{\numberline {1.2}}{2}{}%
+\select@language {magyar} \contentsline {section}{\numberline {2}masodik szakasz}{2}{}%
+\select@language {magyar} \contentsline {paragraph}{1.3}{2}{}%
+\select@language {magyar} \contentsline {subparagraph}{1.4}{3}{}%
+\select@language {magyar} \contentsline {section}{\numberline {A}harmadik szakasz}{3}{}%
+\select@language {magyar} \contentsline {subsection}{\numberline {A.1}}{3}{}%
+\select@language {magyar} \contentsline {subsection}{\numberline {A.2}}{3}{}%
+\select@language {magyar} \contentsline {section}{\numberline {B}negyedik szakasz}{3}{}%
+\select@language {magyar} \contentsline {subsection}{\numberline {B.1}}{3}{}%
+\select@language {magyar} \contentsline {subsection}{\numberline {B.2}}{3}{}%
