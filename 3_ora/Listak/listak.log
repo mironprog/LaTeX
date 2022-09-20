@@ -1,0 +1,304 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.20)  20 SEP 2022 14:28
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./listak.tex
+(listak.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-08-30>
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2022/08/29 3.79 The Babel package
+\babel@savecnt=\count193
+\U@D=\dimen139
+\l@unhyphenated=\language79
+
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count194
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/babel-hungarian\magyar.l
+df
+Language: magyar 2019/01/14 v1.5c Magyar (Hungarian) support for babel
+Package babel Info: Making ` an active character on input line 2819.
+\c@footnote@add=\count195
+\c@footnote@ch=\count196
+))
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/hu\babel-
+magyar.tex
+Package babel Info: Importing font and identification data for magyar
+(babel)             from babel-hu.ini. Reported on input line 11.
+)
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/base\t1enc.sty
+Package: t1enc 1994/06/01 Standard LaTeX package
+)
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks16
+\labelindent=\skip49
+\enit@outerparindent=\dimen140
+\enit@toks=\toks17
+\enit@inbox=\box51
+\enit@count@id=\count197
+\enitdp@description=\count198
+)
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3ke
+ys2e.sty
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-08-30 L3 programming layer (loader) 
+
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
+ex.def
+File: l3backend-pdftex.def 2022-08-30 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count199
+\l__pdf_internal_box=\box52
+))
+Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count266
+\l__lipsum_a_int=\count267
+\l__lipsum_b_int=\count268
+
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex-dev/graphics\mathcolor.l
+tx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cf
+g
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/hulipsum\hulipsum.sty
+Package: hulipsum 2020/11/03 v1.1 Hungarian dummy text (Lorum ipse)
+\c@hulipsum@count=\count269
+)
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count270
+\float@exts=\toks19
+\float@box=\box53
+\@float@everytoks=\toks20
+\@floatcapt=\box54
+)
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen143
+\captionmargin=\dimen144
+\caption@leftmargin=\dimen145
+\caption@rightmargin=\dimen146
+\caption@width=\dimen147
+\caption@indent=\dimen148
+\caption@parindent=\dimen149
+\caption@hangindent=\dimen150
+Package caption Info: Standard document class detected.
+Package caption Info: hungarian babel package is loaded.
+)
+\c@caption@flags=\count271
+\c@continuedfloat=\count272
+Package caption Info: hungarian babel package is loaded.
+Package caption Info: float package is loaded.
+)
+\c@subfigure=\count273
+\c@subtable=\count274
+)
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen151
+\WF@size=\dimen152
+\c@WF@wrappedlines=\count275
+\WF@box=\box55
+\WF@everypar=\toks21
+Package: wrapfig 2003/01/31  v 3.6
+)
+(listak.aux)
+\openout1 = `listak.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
+i
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count276
+\scratchdimen=\dimen153
+\scratchbox=\box56
+\nofMPsegments=\count277
+\nofMParguments=\count278
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count279
+\MPscratchDim=\dimen154
+\MPnumerator=\count280
+\makeMPintoPDFobject=\count281
+\everyMPtoPDFconversion=\toks23
+)
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
+se.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cf
+g
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ (C:\Users\Diak\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+LaTeX Info: Redefining \cal on input line 497.
+LaTeX Info: Redefining \mit on input line 498.
+)
+(listak.lof
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 1.
+)
+\tf@lof=\write3
+\openout3 = `listak.lof'.
+
+
+Overfull \hbox (1.71689pt too wide) in paragraph at lines 58--58
+[][]\T1/cmr/bx/sl/10 cím- 
+ []
+
+[1
+
+
+{C:/Users/Diak/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Overfull \hbox (24.67934pt too wide) in paragraph at lines 59--59
+\T1/cmr/bx/sl/10 hosszabb 
+ []
+
+
+Overfull \hbox (1.71689pt too wide) in paragraph at lines 59--59
+\T1/cmr/bx/sl/10 cím- 
+ []
+
+<../forras/110.jpg, id=8, 642.4pt x 427.5975pt>
+File: ../forras/110.jpg Graphic file (type jpg)
+<use ../forras/110.jpg>
+Package pdftex.def Info: ../forras/110.jpg  used on input line 62.
+(pdftex.def)             Requested size: 142.25964pt x 142.26247pt.
+<../forras/111.jpg, id=9, 319.1925pt x 159.59625pt>
+File: ../forras/111.jpg Graphic file (type jpg)
+<use ../forras/111.jpg>
+Package pdftex.def Info: ../forras/111.jpg  used on input line 68.
+(pdftex.def)             Requested size: 142.26181pt x 142.26424pt.
+
+LaTeX Warning: Reference `' on page 2 undefined on input line 70.
+
+
+LaTeX Warning: Reference `sub@' on page 2 undefined on input line 72.
+
+File: ../forras/111.jpg Graphic file (type jpg)
+<use ../forras/111.jpg>
+Package pdftex.def Info: ../forras/111.jpg  used on input line 74.
+(pdftex.def)             Requested size: 142.26181pt x 142.26424pt.
+
+LaTeX Warning: Float too large for page by 33.20471pt on input line 79.
+
+[2 <../forras/110.jpg>] [3] [4 <../forras/111.jpg>] (listak.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 6331 strings out of 475389
+ 116122 string characters out of 2777472
+ 722500 words of memory out of 3000000
+ 27668 multiletter control sequences out of 15000+600000
+ 473935 words of font info for 34 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 72i,10n,77p,1868b,549s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\Diak\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0
+900.pk> <C:\Users\Diak\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
+ecbx1000.pk> <C:\Users\Diak\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
+i600\ecbl1000.pk> <C:\Users\Diak\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
+ec/dpi600\ecrm1000.pk> <C:\Users\Diak\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
+ppen/ec/dpi600\ecbx1440.pk>
+Output written on listak.pdf (4 pages, 266438 bytes).
+PDF statistics:
+ 141 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+
