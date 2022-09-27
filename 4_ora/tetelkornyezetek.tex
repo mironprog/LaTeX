@@ -1,0 +1,175 @@
+\documentclass{article}
+\usepackage[magyar]{babel}
+\usepackage{t1enc}
+\usepackage{lipsum}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{algorithm}
+\usepackage{amsthm}
+\usepackage{algpseudocode}
+
+\algblockdefx[dowhile]{dwdo}{dwwhile}{\textbf{do}}[1]{\textbf{while}~#1}
+
+\newtheorem*{meg}{Megjegyzés}
+
+\theoremstyle{plain}
+\newtheorem{tet}{Tétel}
+\newtheorem{lem}[tet]{Lemma}
+\theoremstyle{definition}
+\newtheorem{defin}[tet]{Definíció}
+\theoremstyle{remark}
+\newtheorem{fel}{Feladat}[section]
+
+\newfloat{forraskod}{hbt}{lop}
+
+
+\begin{document}
+
+\listof{forraskod}{Forráskódok listája}
+\lstlistoflistings
+\listofalgorithms
+\floatname{algorithm}{Algoritmus}
+
+
+
+
+\begin{tet}[Pitagorasz]
+Bármely derékszögű háromszög leghosszabb oldalának (átfogójának) négyzete megegyezik a másik két oldal (a befogók) négyzetösszegével.
+\end{tet}
+
+\begin{proof}[Pitagorasz tétel bizonyítása:]
+A Pitagorasz-tételnek egyik egyszerű bizonyítási módja az, amelynek alapgondolata: egyenlő területekből azonos nagyságú területeket elvéve, a maradék területek is egyenlő nagyságúak.
+\end{proof}
+
+\begin{tet}[Desargues]
+Kimondja, hogy ha két háromszög egy pontra nézve perspektív, akkor egy egyenesre nézve is perspektív és viszont.
+\end{tet}
+
+\begin{defin}[Definíció]
+Definíciónak nevezzük általában egy fogalomnak vagy egy jel (például egy nyelvi kifejezés) jelentésének meghatározását
+\end{defin}
+
+\begin{defin}[Befogó]
+A befogó a derékszögű háromszögnél fordul elő,
+egy derékszögű háromszögnek 2 db befogója van,
+a befogók, befogják a derékszöget
+\end{defin}
+
+\begin{lem}[Lemma]
+A matematikában a lemma olyan bizonyított állítás, amit kiindulási alapnak használnak fel jelentősebb eredmények eléréséhez. A lemma és a tétel közt formálisan nincs különbség; a lemma egy kisebb eredmény, amely lehetővé teszi egy tétel bizonyítását.
+\end{lem}
+
+\section{section1}
+\begin{fel}
+
+feladat 1 \\
+feladat 2
+
+ \end{fel}
+ 
+ \section{section2}
+ \begin{fel}
+
+feladat 3 \\
+feladat 4
+
+ \end{fel}
+ 
+ \begin{meg}[Megjegyzés]
+ megjegyzés
+ \end{meg}
+ 
+\verb|\lipsum| 
+
+\verb|\texttt{szöveg}|
+
+\begin{verbatim}
+\newtheorem{tet}{Tétel}
+\begin{tet}[Pitagorasz]
+\end{tet}
+\end{verbatim}
+
+
+\begin{verbatim}
+\begin{enumerate}   
+\item első pont  
+\item második pont  
+\begin{itemize}  
+\item első alpont  
+\item második alpont  
+\end{itemize}  
+\item harmadik pont  
+\end{enumerate}  
+\end{verbatim}
+
+\lipsum[1]
+
+\begin{forraskod}\caption{forráskód}
+\begin{verbatim}
+\end{itemize}  
+\item harmadik pont  
+\end{enumerate}
+\end{verbatim}
+\end{forraskod}
+
+
+\lipsum[1]
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\ 	
+
+\begin{lstlisting}[language=python, tabsize=3, numbers=left, stepnumber=4,
+frame=shadowbox, float, caption={bináris keresés}]
+def binary_search(arr, val, start, end):
+	if start == end:
+		if arr[start] > val:
+			return start
+		else:
+			return start+1
+	elif start > end:
+		return start
+	else: 
+		mid = (start+end)/2
+		if arr[mid] < val:
+			return binary_search(arr, val, mid+1, end)
+		elif arr[mid] > val:
+			return binary_search(arr, val, start, mid-1)
+		else: # arr[mid] = val
+			return mid
+\end{lstlisting}
+
+
+\begin{algorithm}\caption{Gyorsrendezés}
+\begin{algorithmic}[2]
+\Procedure{QUICKSORT}{@A,a,b}
+\Require A egy írható tömb
+\Require 1 < a < b < Hossz[A] indexek
+\Ensure a-b indextartományt rendezzük
+\If{a=b} 
+\State\Return A
+\Else
+\State\Call{FELOSZT}{@A,a,b,A(a),@q}
+\State\Call{QUICKSORT}{@A,a,q}
+\State\Call{QUICKSORT}{@A,q+1,b}
+\State\Return A
+
+\EndIf
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+
+
+\begin{algorithmic}[2]
+\dwdo
+\State x++
+\dwwhile{x=2}
+\end{algorithmic}
+
+\end{document}
