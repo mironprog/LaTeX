@@ -1,0 +1,107 @@
+\documentclass{article}
+\usepackage[magyar]{babel}
+\usepackage{t1enc}
+\usepackage{amsmath}
+\usepackage{amsfonts, amssymb}
+\usepackage{mathtools}
+\usepackage{graphicx}
+
+\begin{document}
+{\huge 1. Bevezető}\\
+
+Az $\frac{1}{n^2}$ sorösszege:
+\[ \sum_{i=1}^\infty \frac{1}{n^2} = \frac{\pi^2}{6}. \]\\
+Az n! (n faktoriális) a számok szorzata 1-töl n-ig, azaz
+\[ n! := \prod_{k=1}^n k = 1 \cdot 2 \cdot \dotsc \cdot n.\]
+Konvenció szerint 0! = 1\\
+
+
+Legyen 0   k   n. A binomiális együttható
+\[\binom{n}{k} := \frac{n!}{k!\cdot(n-k)!} \]
+ahol a faktoriálist (1) szerint definiáljuk.\\
+
+Az előjel- azaz szignum függvényt a következőképpen definiáljuk:
+\[sgn(x) :=
+\begin{cases}
+1, & \text{ha } x > 0, \\
+0, & \text{ha } x = 0, \\
+-1, & \text{ha } x < 0.
+\end{cases}
+\]
+
+{\huge 2.Determináns}\\
+
+Legyen
+\[[n] := \{1,2, \dotsc , n \} \]
+a természetes számok halmaza 1-től n-ig.\\
+
+Egy n-edrendű permutáció $\sigma$ egy bijekció [n]-ből [n]-be. Az n-edrendű permutációk halmazát, az ún. szimmetrikus csoportot, $S_n$-nel jelöljük.\\
+
+Egy $\sigma \in  S_n$ permutációban inverziónak nevezünk egy (i, j) párt, ha i < j
+de $\sigma_i > \sigma_j$.\\
+
+Egy $\sigma \in  S_n$ permutáció paritásának az inverziók számát nevezzük:
+\[ \mathcal{I} (\sigma) := \vert \{(i, j) \vert i, j \in [n], i < j, \sigma_i > \sigma_j \} \vert \]\\
+
+Legyen A $\in$ $R^{n \times n}$, egy n \texttimes n-es (négyzetes) valós mátrix:\\
+
+\[ A=
+\left( \begin{matrix}
+a_{11} & a_{12} & \dotsc  & a_{1n} \\
+a_{21} & a_{22} &  \dotsc & a_{2n} \\
+\rotatebox[origin=c]{90}{$ \dotsc $} & \rotatebox[origin=c]{90}{$ \dotsc $} &  \rotatebox[origin=c]{-45}{$ \dotsc $} & \rotatebox[origin=c]{90}{$ \dotsc $ } \\
+a_{n1} & a_{n2} & \dotsc & a_{nn} \\
+\end{matrix} \right)
+\]\\
+
+Az A mátrix determinánsát a következőképpen definiáljuk:
+\[ det(A) = 
+\begin{vmatrix}
+a_{11} & a_{12} & \dotsc  & a_{1n} \\
+a_{21} & a_{22} &  \dotsc & a_{2n} \\
+\rotatebox[origin=c]{90}{$ \dotsc $} & \rotatebox[origin=c]{90}{$ \dotsc $} &  \rotatebox[origin=c]{-45}{$ \dotsc $} & \rotatebox[origin=c]{90}{$ \dotsc $ } \\
+a_{n1} & a_{n2} & \dotsc & a_{nn} \\
+\end{vmatrix}
+:=  \sum_{\sigma  \in\ S_n} (-1)^{ \mathcal{I} (\sigma)} \prod_{i=1}^n a_{i\sigma_i} \]\\
+
+{\huge 3. Logikai azonosság}\\
+
+
+Készítsük el a következő táblázatot, formulákat és levezetést. Ügyeljünk a számozásra és igazításra is!
+Tekintsük az L = \{0, 1\} halmazt, és rajta a következő, igazságtáblával definiált
+műveleteket:\\
+\[
+\begin{array}{c||c}
+x & \bar{x}   \\ \hline
+0 & 1  \\
+1 & 0  \\
+\end{array}
+\quad \quad \quad
+\begin{array}{c c||c|c|c}
+x & y & x \vee y & x \wedge y & x \rightarrow y \\ \hline
+0 & 0 & 0 & 0 & 1 \\
+0 & 1 & 1 & 0 & 1 \\
+1 & 0 & 1 & 0 & 0 \\
+1 & 1 & 1 & 1 & 1 \\
+
+\end{array}
+\]
+
+
+Legyenek a, b, c, d $\in$ L. Belátjuk a következő azonosságot:
+
+\begin{gather}
+(a \wedge b \wedge c) \rightarrow d = a \rightarrow (b \rightarrow (c \rightarrow d)).
+\end{gather}
+
+\[
+(a+b)^{n+1}
+= (a+b) \cdot \left( \sum_{k=0}^n \binom{n}{k} a^{n-k}b^k \right)
+= \sum_{k=0}^n \binom{n}{k} a^{(n+1)-k}b^k
++ \sum_{k=1}^{n+1} \binom{n}{k-1} a^{(n+1)-k}b^{k}
+= \binom{n+1}{0} a^{n+1-0} b^0
++ \sum_{k=1}^n \binom{n+1}{k} a^{(n+1)-k}b^k
++ \binom{n+1}{n+1} a^{n+1-(n+1)} b^{n+1}
+= \sum_{k=0}^{n+1} \binom{n+1}{k} a^{(n+1)-k}b^k
+\]
+\end{document}
