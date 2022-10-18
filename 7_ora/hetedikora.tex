@@ -1,0 +1,72 @@
+\documentclass{article}
+\usepackage[magyar]{babel}
+\usepackage{t1enc}
+\usepackage{amsmath}
+\usepackage{amsfonts, amssymb}
+\usepackage{mathtools}
+\usepackage{graphicx}
+\usepackage{ifthen}
+\usepackage{pgffor}
+\usepackage{multicol}
+\usepackage{hulipsum}
+
+
+
+
+\DeclareMathOperator *{\argmax}{arg\max}
+
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\DeclarePairedDelimiterX{\szogfelt}[2]{[}{]}{#1\;\delimsize\vert\;#2}
+\newcommand{\probcond}[2]{\prob\szogfelt{#1}{#2}}
+
+\DeclarePairedDelimiter{\szogletes}{[}{]}
+\newcommand{\VE}[1]{\mathbb{E}\szogletes*{#1}}
+
+\newenvironment{vonalzott}[1]{\begin{minipage}{0.8\linewidth}
+\vspace{1ex}\hrule\vspace{1ex}{\huge\begin{center}#1\end{center}}}%
+{\vspace{1ex}\hrule\vspace{1ex}\end{minipage}}
+
+\newcounter{szamlalo}
+
+
+\begin{document}
+$\argmax_{x\in[0,1]}$
+\\
+\\
+\\
+x*:=$\argmax_{x\in[0,1]}$ x $log_2$ (x).
+\\
+\\
+\\
+$\ceil{x}, \ceil{\dfrac{5}{3}}$
+\\
+\\
+\\
+$\szogfelt{\sum_{i=1}^N X_i = x}{N = n}$
+\\
+\\
+\\
+$\VE{\sum\limits_{i=1}^N X_i}$ = 
+
+\vspace{4cm}
+
+
+
+\begin{vonalzott}{Kulcsgondolatok}
+
+
+
+\hulipsum[1]
+\\
+\newcommand{\kgitem}{\par\stepcounter{szamlalo}\makebox[10pt][c]{\theszamlalo}}
+\kgitem
+
+\end{vonalzott}
+
+
+
+
+
+
+\end{document}
