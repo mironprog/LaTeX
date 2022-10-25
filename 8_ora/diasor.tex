@@ -1,0 +1,140 @@
+\documentclass[aspectratio=169, 12pt, xcolor={table}]{beamer}
+\usepackage[magyar]{babel}
+\usepackage{t1enc}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{amsthm}
+\usepackage{hulipsum}
+\usepackage{graphicx}
+
+
+\author{Miron} 
+\title{Dia} 
+\subtitle{Diaalcím} 
+\institute{Miskolci egyetem} 
+\date{\today} 
+
+\begin{document}
+
+
+ihjerwphiwj
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\begin{frame}
+\frametitle{Title}
+\framesubtitle{Subtitle}
+\hulipsum[1]
+\end{frame}
+
+\begin{frame}{Probaframe}{Probaalcim}
+\begin{itemize}
+\item framenumber: \insertframenumber \\ 
+slidenumber: \insertslidenumber
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Frame, slide példa}
+\begin{itemize}
+\item itt vagyunk most: \insertframenumber.\ frame,
+\insertslidenumber.\ slide
+\item ez az elem minden slide-on megjelenik
+\item<1> ez az elem csak az els® slide-on
+jelenik meg
+\item<2-> ez az elem csak a második slide-tól
+jelenik meg
+\item \alert<3>{ez az elem piros a 3.\ slide-on}
+\item összesen tehát 3 slide lesz
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\begin{verbatim}
+\hulipsum
+\end{verbatim}
+\end{frame}
+
+\begin{frame}[allowframebreaks]
+\hulipsum
+\end{frame}
+
+\begin{frame}
+\begin{columns}[c]
+\begin{column}{.5\linewidth}
+\begin{itemize}
+  \item első elem
+  \item második elem
+  \item harmadik elem
+\end{itemize}
+\begin{enumerate}
+  \item első számozott
+  \item második számozott
+  \item haramdik számozott
+\end{enumerate}
+\end{column}
+\begin{column}{.5\linewidth}
+\begin{figure}[bt]
+\caption{Egy süni}
+\label{fig:kepek}
+\includegraphics[width=4cm, height=4cm]{C:/Users/Diak/Desktop/8_ora/forras/suni.jpg}
+\end{figure}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Blokk címe}
+Ez itt egy blokk
+\begin{itemize}
+\item egy elem
+\end{itemize}
+\end{block}
+
+\begin{block}{}
+Ez itt egy cím nélküli blokk
+\end{block}
+
+\begin{exampleblock}{Exampleblokk címe}
+Ez itt egy exampleblokk
+\begin{itemize}
+\item egy elem
+\end{itemize}
+\end{exampleblock}
+
+\begin{alertblock}{Alertblokk címe}
+Ez itt egy alertblokk
+\begin{itemize}
+\item egy elem
+\end{itemize}
+
+\end{alertblock}
+
+
+\end{frame}
+
+\begin{frame}
+\begin{theorem}
+Valami
+\end{theorem}
+
+\begin{proof}
+Megintcsak valami
+\end{proof}
+
+\begin{semiverbatim}
+\\begin \{enumerate\}  \newline
+\\item \alert{első szint}  \newline
+\\begin \{enumerate\} \newline
+\\item \textcolor{blue}{második szint} \newline
+\\end \{enumerate\} \newline
+\\end \{enumerate\}
+\end{semiverbatim}
+\end{frame}
+
+
+
+
+\end{document}
