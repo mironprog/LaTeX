@@ -1,0 +1,118 @@
+\documentclass[11pt]{book}
+\usepackage[magyar]{babel}
+\usepackage{t1enc}
+\usepackage{hulipsum}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{amsfonts, amssymb}
+\usepackage{mathtools}
+\usepackage{dsfont}
+\usepackage{xcolor}
+\usepackage{listings}
+
+\newenvironment{vers}[2]{\begin{center}\huge{#1}\end{center},\begin{center}\emph{#2}\end{center}}
+
+
+\title{Zárthelyi dolgozat}
+\author{Miron F4XQRO}
+\date{\today}
+
+
+\begin{document}
+\maketitle
+\pagestyle{fancy}
+\fancyhead[LE]{\leftmark}
+\fancyhead[RO]{\rightmark}
+\fancyhf[]{\nouppercase{\leftmark}}
+\fancyfoot[LE,RO]{\thepage}
+\chapter{első feladat}
+\section{első szakasz}
+\hulipsum
+\section{második szakasz}
+\hulipsum
+
+
+\chapter{második feladat}
+\includegraphics[keepaspectratio,scale=0.5,height=4cm]{C:/Users/Diak/Desktop/zh/kepek/szines.jpg}
+\framebox{\includegraphics[height=4cm]{C:/Users/Diak/Desktop/zh/kepek/szepia.jpg}}
+
+
+\begin{figure}[hb]
+\centering
+\caption{ábra felirata}
+\begin{subfigure}{5cm}
+\centering
+\caption{első részábra}
+\includegraphics[keepaspectratio,scale=0.5,height=4cm]{C:/Users/Diak/Desktop/zh/kepek/szines.jpg}
+\end{subfigure}
+
+\begin{subfigure}{5cm}
+\centering
+\caption{második részábra}
+\framebox{\includegraphics[height=4cm]{C:/Users/Diak/Desktop/zh/kepek/szepia.jpg}}
+\end{subfigure}
+\end{figure}
+\hulipsum
+
+\begin{wrapfigure}[12]{r}[\marginparwidth]{0pt}
+\hulipsum
+\includegraphics[keepaspectratio,scale=0.5,height=4cm]{C:/Users/Diak/Desktop/zh/kepek/szines.jpg}
+\framebox{\includegraphics[height=4cm]{C:/Users/Diak/Desktop/zh/kepek/szepia.jpg}}
+\hulipsum
+
+\end{wrapfigure}
+
+
+\chapter{harmadik feladat}
+
+{\huge 1.Definíció} (Sajátérték). Legyen A $\in \mathds{R}^{nxn}$ 
+négyzetes mátrix. Azt mondjuk,
+hogy $\lambda\in\mathds{c}$ C sajátértéke és v$\in\mathds{c}^n$ a $\lambda$ sajátértékhez tartozó (jobb oldali) sajátvektora A-nak, ha \\
+\begin{center}Av = $\lambda$v.\end{center}
+
+{\huge 2.Definíció} (Karakterisztikus polinom). Jelölje E$\in \mathds{R}^{nxn}$egységmátrixot.
+Az A ún. \emph{karakterisztikus polinomja}:
+\[ \varphi ( \lambda ):= det(A \textcolor{red}{- \lambda E}) = 
+\begin{vmatrix}
+a_{11} \textcolor{red}{- \lambda} & a_{12} & \dotsc  & a_{1n} \\
+a_{21} & a_{22} \textcolor{red}{- \lambda} &  \dotsc & a_{2n} \\
+\rotatebox[origin=c]{90}{$ \dotsc $} & \rotatebox[origin=c]{90}{$ \dotsc $} &  \rotatebox[origin=c]{-45}{$ \dotsc $} & \rotatebox[origin=c]{90}{$ \dotsc $ } \\
+a_{n1} & a_{n2} & \dotsc & a_{nn} \textcolor{red}{- \lambda} \\
+\end{vmatrix}
+\]
+egy n-edfokú polinom $\lambda$-ban.\\
+\\
+
+{\huge 1.Tétel}(Sajátértékek meghatározása). Az A $\in \mathds{R}^{nxn}$ mátrix sajátértékei az ún.
+\emph{karakterisztikus egyenlet}
+\begin{center} $\varphi(\lambda)$ = 0\end{center}
+megoldásai. Mivel a $\varphi(\lambda)$ karakterisztikus polinom egy n-edfokú polinom $\lambda$-ban,
+ezért a komplex számokon (multiplicitással együtt) \emph{n} megoldása van
+
+\chapter{negyedik feladat}
+\hulipsum
+\begin{lstlisting}[language=C, tabsize=2, numbers=right, stepnumber=2, showspaces,
+frame=shadowbox, float, caption={bináris keresés C-ben}]{C:/Users/Diak/Desktop/zh/kepek/binsearch_it.c}
+binarySearch(arr, x, low, high)
+	repeat till low = high
+		mid = (low + high)/2
+			if (x == arr[mid])
+				return mid
+
+			else if (x > arr[mid])	// x is on the right side
+				low = mid + 1
+
+			else			// x is on the left side
+				high = mid - 1
+\end{lstlisting}
+\hulipsum
+
+\chapter{ötödik feladat}
+\begin{vers}{Cím}{Szerzo}
+
+\end{vers}
+
+\end{document}
